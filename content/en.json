@@ -1,0 +1,50 @@
+{
+  "welcome": "Hi 👋 Welcome to HerHealth Bot. A safe place to learn, ask questions, and grow with confidence.",
+  "btn_learn": "📚 Learn About Periods",
+  "btn_hygiene": "🧼 Hygiene Tips",
+  "btn_emotional": "💖 Emotional Support",
+  "btn_myth": "🤔 Myth vs Fact",
+  "btn_ask": "💬 Ask Privately",
+  "btn_quiz": "📝 Quiz Time",
+  "btn_language": "🌍 Language",
+  "btn_about": "ℹ️ About",
+  "btn_back": "⬅️ Back to Home",
+  
+  "learn_menu": "What would you like to learn about today?",
+  "btn_what_is": "What is Menstruation?",
+  "btn_why": "Why It Happens",
+  "btn_first": "First Period Guide",
+  "btn_cycle": "Menstrual Cycle Basics",
+  "btn_body": "Body Changes During Puberty",
+
+  "hygiene_menu": "Let's talk about staying clean and comfortable.",
+  "btn_pads": "How to Use Pads",
+  "btn_change": "Change Pads Safely",
+  "btn_bathing": "Bathing & Cleanliness",
+  "btn_school": "School Tips During Period",
+  "btn_disposal": "Disposal Tips",
+
+  "emotional_menu": "Your feelings are valid. What do you need support with?",
+  "btn_mood": "Mood Swings",
+  "btn_anxiety": "Anxiety & Fear",
+  "btn_confidence": "Confidence Boost",
+  "btn_self_accept": "Self Acceptance",
+  "btn_need_encourage": "Need Encouragement",
+
+  "myth_menu": "Let's bust some myths!",
+  "btn_exercise": "Can I Exercise?",
+  "btn_school_myth": "Can I Go to School?",
+  "btn_shameful": "Is Period Shameful?",
+  "btn_bathe_myth": "Can I Bathe?",
+  "btn_tf_quiz": "True or False Quiz",
+
+  "language_menu": "Choose your language:",
+  "about_text": "HerHealth Bot is dedicated to empowering teenagers and young women with accurate, stigma-free information about menstruation and emotional wellness. We believe knowledge is confidence! 💪",
+  
+  "ask_prompt": "You can ask me any question about periods or puberty privately. Type your question below:",
+  "ask_received": "Thank you for asking! While I'm a bot, here is a helpful answer: Periods are normal, and every question you have is valid. Always remember to speak with a trusted adult or health worker if you're experiencing pain or severe symptoms.",
+  
+  "quiz_start": "Welcome to the Quiz! Let's test your knowledge.",
+  "quiz_end": "Quiz complete! Your score: {score}/{total}",
+  "btn_next": "Next ➡️"
+}

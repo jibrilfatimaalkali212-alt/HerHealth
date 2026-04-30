@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "question": {
+      "en": "How often should you change your pad?",
+      "pidgin": "How many hours you suppose take change your pad?",
+      "ha": "Bayan awa nawa ya kamata ki canza pad?"
+    },
+    "options": {
+      "en": ["Every 4-6 hours", "Once a day", "Every 12 hours", "Only when full"],
+      "pidgin": ["Every 4-6 hours", "Once a day", "Every 12 hours", "Only when e full"],
+      "ha": ["Kowane awa 4-6", "Sau daya a rana", "Kowane awa 12", "Sai ya cika"]
+    },
+    "answerIndex": 0
+  },
+  {
+    "id": 2,
+    "question": {
+      "en": "Is it normal to feel sad or angry for no reason before your period?",
+      "pidgin": "E normal make you dey vex or sad before your period?",
+      "ha": "Shin al'ada ne ki ji bacin rai kafin haila?"
+    },
+    "options": {
+      "en": ["No, it means you're sick", "Yes, it's called PMS", "Only if you're a teenager", "No, it's a myth"],
+      "pidgin": ["No, e mean say you sick", "Yes, dem dey call am PMS", "Only if you be pikin", "No, na lie"],
+      "ha": ["A'a, kina da ciwo ne", "Eh, ana kiran sa PMS", "Sai idan ke yarinya ce", "A'a, karya ne"]
+    },
+    "answerIndex": 1
+  },
+  {
+    "id": 3,
+    "question": {
+      "en": "What should you do with a used pad?",
+      "pidgin": "Wetin you suppose do with used pad?",
+      "ha": "Me za ki yi da pad da kika yi amfani da shi?"
+    },
+    "options": {
+      "en": ["Flush it down the toilet", "Wash and reuse it", "Roll it, wrap it, and throw it in the trash", "Leave it in the bathroom"],
+      "pidgin": ["Flush am for toilet", "Wash am use again", "Roll am, wrap am, throw for dustbin", "Leave am for bathroom"],
+      "ha": ["Jefa a bayan gari", "Wanke ki sake amfani", "Nade ki jefa a kwandon shara", "Ajiye a ban daki"]
+    },
+    "answerIndex": 2
+  },
+  {
+    "id": 4,
+    "question": {
+      "en": "Can you exercise during your period?",
+      "pidgin": "You fit exercise during your period?",
+      "ha": "Zaki iya motsa jiki lokacin haila?"
+    },
+    "options": {
+      "en": ["Yes, it helps with cramps", "No, it's dangerous", "Only swimming", "Only on the last day"],
+      "pidgin": ["Yes, e dey help for pain", "No, e bad", "Only swimming", "Only on the last day"],
+      "ha": ["Eh, yana rage radadi", "A'a, yana da hadari", "Iya iyo kawai", "Sai ranar karshe"]
+    },
+    "answerIndex": 0
+  },
+  {
+    "id": 5,
+    "question": {
+      "en": "What is the average length of a menstrual cycle?",
+      "pidgin": "Wetin be the average length of menstrual cycle?",
+      "ha": "Kwanaki nawa ne tsawon sadarwar haila yawanci?"
+    },
+    "options": {
+      "en": ["7 days", "14 days", "28 days", "60 days"],
+      "pidgin": ["7 days", "14 days", "28 days", "60 days"],
+      "ha": ["Kwanaki 7", "Kwanaki 14", "Kwanaki 28", "Kwanaki 60"]
+    },
+    "answerIndex": 2
+  }
+]

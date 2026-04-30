@@ -1,0 +1,50 @@
+{
+  "welcome": "Sannu 👋 Barka da zuwa HerHealth Bot. Wuri mai aminci don koyo da tambayoyi.",
+  "btn_learn": "📚 Koyi game da Haila",
+  "btn_hygiene": "🧼 Shawarwarin Tsafta",
+  "btn_emotional": "💖 Taimakon Zuciya",
+  "btn_myth": "🤔 Gaskiya da Tatsuniya",
+  "btn_ask": "💬 Tambaya a Asirce",
+  "btn_quiz": "📝 Lokacin Jarrabawa",
+  "btn_language": "🌍 Yare",
+  "btn_about": "ℹ️ Game da Mu",
+  "btn_back": "⬅️ Koma Baya",
+  
+  "learn_menu": "Me kike so ki koya yau?",
+  "btn_what_is": "Menene Haila?",
+  "btn_why": "Me yasa yake faruwa",
+  "btn_first": "Jagorar Hailar Farko",
+  "btn_cycle": "Sadarwar Haila",
+  "btn_body": "Canje-canjen Jiki",
+
+  "hygiene_menu": "Bari mu tattauna game da tsafta.",
+  "btn_pads": "Yadda ake amfani da audugar mata",
+  "btn_change": "Canza pad lafiya",
+  "btn_bathing": "Wanka da Tsafta",
+  "btn_school": "Makarantar da Haila",
+  "btn_disposal": "Zubar da pad",
+
+  "emotional_menu": "Taimakon zuciya. Me kike bukata?",
+  "btn_mood": "Canjin Yanayi",
+  "btn_anxiety": "Tsoro da fargaba",
+  "btn_confidence": "Kwarin Gwiwa",
+  "btn_self_accept": "Yarda da Kai",
+  "btn_need_encourage": "Ina bukatan karfafa gwiwa",
+
+  "myth_menu": "Bari mu duba tatsuniyoyi!",
+  "btn_exercise": "Zan iya motsa jiki?",
+  "btn_school_myth": "Zan iya zuwa makaranta?",
+  "btn_shameful": "Haila abin kunya ne?",
+  "btn_bathe_myth": "Zan iya wanka?",
+  "btn_tf_quiz": "Jarrabawar Gaskiya/Karya",
+
+  "language_menu": "Zabi yarenki:",
+  "about_text": "HerHealth Bot yana taimakawa 'yan mata da bayanai kan haila. Ilimi haske ne! 💪",
+  
+  "ask_prompt": "Kina iya yi min tambaya a asirce, rubuta a kasa:",
+  "ask_received": "Na gode da tambayar. Haila al'ada ce. Tuntubi likita idan kina jin zafi sosai.",
+  
+  "quiz_start": "Barka da zuwa jarrabawar! Bari mu gwada iliminki.",
+  "quiz_end": "Kin gama! Sakamakonki: {score}/{total}",
+  "btn_next": "Na gaba ➡️"
+}

@@ -1,0 +1,50 @@
+{
+  "welcome": "How far 👋 Welcome to HerHealth Bot. A safe space to learn, ask questions, and grow with confidence.",
+  "btn_learn": "📚 Learn About Periods",
+  "btn_hygiene": "🧼 Hygiene Tips",
+  "btn_emotional": "💖 Emotional Support",
+  "btn_myth": "🤔 Myth vs Fact",
+  "btn_ask": "💬 Ask Privately",
+  "btn_quiz": "📝 Quiz Time",
+  "btn_language": "🌍 Language",
+  "btn_about": "ℹ️ About",
+  "btn_back": "⬅️ Back to Home",
+  
+  "learn_menu": "Wetin you wan learn about today?",
+  "btn_what_is": "Wetin be Menstruation?",
+  "btn_why": "Why E Dey Happen",
+  "btn_first": "First Period Guide",
+  "btn_cycle": "Menstrual Cycle Basics",
+  "btn_body": "Body Changes For Puberty",
+
+  "hygiene_menu": "Make we talk about how to stay clean.",
+  "btn_pads": "How to Use Pads",
+  "btn_change": "Change Pads Safely",
+  "btn_bathing": "Bathing & Cleanliness",
+  "btn_school": "School Tips For Period",
+  "btn_disposal": "How to Throw Pad",
+
+  "emotional_menu": "Your feelings dey valid. Wetin you need help with?",
+  "btn_mood": "Mood Swings",
+  "btn_anxiety": "Anxiety & Fear",
+  "btn_confidence": "Confidence Boost",
+  "btn_self_accept": "Self Acceptance",
+  "btn_need_encourage": "I Need Encouragement",
+
+  "myth_menu": "Make we bust some myths!",
+  "btn_exercise": "I Fit Exercise?",
+  "btn_school_myth": "I Fit Go School?",
+  "btn_shameful": "Period Na Shame?",
+  "btn_bathe_myth": "I Fit Bathe?",
+  "btn_tf_quiz": "True or False Quiz",
+
+  "language_menu": "Choose your language:",
+  "about_text": "HerHealth Bot dey to empower girls with correct information about menstruation. Knowledge na power! 💪",
+  
+  "ask_prompt": "You fit ask me any question about periods privately. Type your question below:",
+  "ask_received": "Thank you! Even though I be bot, make I tell you say: Periods na normal thing. If you get pain, tell trusted adult or doctor.",
+  
+  "quiz_start": "Welcome to Quiz! Make we test your knowledge.",
+  "quiz_end": "Quiz complete! Your score: {score}/{total}",
+  "btn_next": "Next ➡️"
+}
