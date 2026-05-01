@@ -48,7 +48,14 @@ const keywordMap = {
   tracking: ['track', 'app', 'calendar', 'prediction'],
   ovulation_pain: ['ovulation pain', 'twinge', 'side pain'],
   discharge_types: ['color', 'stretchy', 'thick white'],
-  cramps_why: ['why cramps', 'muscle', 'contraction']
+  cramps_why: ['why cramps', 'muscle', 'contraction'],
+  clots: ['clot', 'jelly', 'lump', 'thick blood'],
+  sex_period: ['sex', 'intercourse', 'making love', 'husband'],
+  pregnancy_test: ['test', 'check for pikin', 'check for baby'],
+  menopause: ['menopause', 'stop forever', 'old age'],
+  pmdd: ['pmdd', 'depression', 'sadness'],
+  pads_vs_tampons: ['difference', 'choose', 'better'],
+  birth_control: ['pill', 'iud', 'implant', 'injection', 'contraceptive']
 };
 
 function findMatchingArticle(question, lang) {
