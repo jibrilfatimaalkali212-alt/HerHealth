@@ -122,18 +122,19 @@ function setupHandlers(bot) {
     if (state.state === 'ask_privately') {
       const question = ctx.message.text;
       
-      // 1. Try Keyword Match (Saves Quota)
+      // 1. Try Keyword Match first
       const staticMatch = findMatchingArticle(question, state.language);
       
       if (staticMatch) {
         await ctx.reply(getText(state.language, 'ask_received'));
-        await ctx.reply(`💡 I found some info for you:\n\n${staticMatch}`, keyboards.getBackKeyboard(state.language));
+        await ctx.reply(`💡 I have an answer for you from my health library:\n\n${staticMatch}`, keyboards.getBackKeyboard(state.language));
         updateUserState(userId, { state: 'home' });
         return;
       }
 
-      // 2. If no match, use AI (Consumes Quota)
-      await ctx.reply(getText(state.language, 'ask_received'));
+      // 2. If no match, notify user and use AI
+      await ctx.reply("🔍 I couldn't find a direct match in my quick-guide, let me ask my AI brain for you... one moment.");
+      
       const answer = await generateAnswer(question);
       
       await ctx.reply(answer, {
