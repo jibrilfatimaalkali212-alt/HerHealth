@@ -55,7 +55,27 @@ const keywordMap = {
   menopause: ['menopause', 'stop forever', 'old age'],
   pmdd: ['pmdd', 'depression', 'sadness'],
   pads_vs_tampons: ['difference', 'choose', 'better'],
-  birth_control: ['pill', 'iud', 'implant', 'injection', 'contraceptive']
+  birth_control: ['pill', 'iud', 'implant', 'injection', 'contraceptive'],
+  leak_school: ['leak at school', 'stained my skirt', 'uniform stain'],
+  tell_dad: ['tell my dad', 'father', 'tell daddy'],
+  gym_class: ['pe class', 'gym', 'sports teacher'],
+  night_leak: ['leak at night', 'bed', 'sleep', 'overnight'],
+  people_smell: ['people smell', 'others notice', 'bad odor'],
+  bulge_pad: ['see the pad', 'pad show', 'jeans', 'visible'],
+  irregular_first: ['irregular', 'skip months', 'not every month'],
+  nausea: ['nausea', 'vomit', 'throwing up', 'sick'],
+  bag_kit: ['school bag', 'kit', 'pouch', 'emergency'],
+  public_toilet: ['public toilet', 'bathroom', 'change outside'],
+  stop_growing: ['stop growing', 'get taller', 'height'],
+  hair_growth: ['body hair', 'armpit hair', 'shave'],
+  buying_pads: ['buy pads', 'embarrassed', 'market', 'shop'],
+  vacation: ['holiday', 'vacation', 'travel', 'trip'],
+  clothes: ['wear', 'skirt', 'pants', 'dress', 'dark color'],
+  first_pain: ['pain first time', 'hurt at first', 'new pain'],
+  fainting: ['faint', 'pass out', 'black out'],
+  dance_sports: ['dance', 'athlete', 'play'],
+  puberty_friends: ['friends started', 'before me', 'after me'],
+  stay_fresh: ['fresh', 'clean vulva', 'wash outside']
 };
 
 function findMatchingArticle(question, lang) {
