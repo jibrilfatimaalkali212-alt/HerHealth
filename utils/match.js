@@ -1,28 +1,13 @@
 const articles = require('../data/articles.json');
 
 const keywordMap = {
-  what_is: ['what is', 'menstruation', 'period', 'menses', 'menure'],
-  why: ['why', 'reason', 'happen', 'cause'],
-  first: ['first', 'start', 'begin', 'young'],
-  cycle: ['cycle', 'days', 'long', 'duration', 'understanding', 'calculate'],
-  body: ['body', 'changes', 'puberty', 'breast', 'hair'],
-  pads: ['pad', 'use', 'stick', 'apply'],
-  change: ['change', 'how often', 'hours', 'replace'],
-  bathing: ['bath', 'wash', 'clean', 'shower', 'soap'],
-  school: ['school', 'uniform', 'class', 'teacher'],
-  disposal: ['throw', 'disposal', 'trash', 'bin', 'flush', 'dispose'],
-  mood: ['mood', 'sad', 'angry', 'feelings', 'crying', 'swings'],
-  anxiety: ['scared', 'fear', 'anxiety', 'worried'],
-  exercise: ['exercise', 'sport', 'run', 'gym', 'stretch'],
-  shameful: ['shame', 'dirty', 'bad', 'secret'],
+  // --- SPECIFIC TOPICS (Check these first) ---
+  dizzy: ['dizzy', 'faint', 'weak', 'tired', 'dizziness'],
   late: ['late', 'delay', 'missed', 'not come', 'waiting'],
   odor: ['smell', 'odor', 'stink', 'fishy', 'scent'],
   heavy: ['heavy', 'flow', 'soaked', 'bleeding a lot', 'too much'],
-  dizzy: ['dizzy', 'faint', 'weak', 'tired', 'dizziness'],
   cold_water: ['cold water', 'ice water', 'chilled'],
   okra: ['okra', 'draw soup', 'slippery'],
-  dos_donts: ['do and don\'t', 'rules', 'avoid', 'should I'],
-  food: ['food', 'eat', 'diet', 'nutrition', 'sugar', 'salt'],
   ovulation: ['ovulation', 'ovulate', 'egg', 'fertile'],
   discharge: ['discharge', 'white stuff', 'watery', 'leaking'],
   itching: ['itch', 'scratch', 'burning', 'irritation'],
@@ -75,7 +60,25 @@ const keywordMap = {
   fainting: ['faint', 'pass out', 'black out'],
   dance_sports: ['dance', 'athlete', 'play'],
   puberty_friends: ['friends started', 'before me', 'after me'],
-  stay_fresh: ['fresh', 'clean vulva', 'wash outside']
+  stay_fresh: ['fresh', 'clean vulva', 'wash outside'],
+  dos_donts: ['do and don\'t', 'rules', 'avoid', 'should I'],
+  food: ['food', 'eat', 'diet', 'nutrition', 'sugar', 'salt'],
+  
+  // --- GENERAL TOPICS (Check these last) ---
+  cycle: ['cycle', 'days', 'long', 'duration', 'understanding', 'calculate'],
+  body: ['body', 'changes', 'puberty', 'breast', 'hair'],
+  pads: ['pad', 'use', 'stick', 'apply'],
+  change: ['change', 'how often', 'hours', 'replace'],
+  bathing: ['bath', 'wash', 'clean', 'shower', 'soap'],
+  school: ['school', 'uniform', 'class', 'teacher'],
+  disposal: ['throw', 'disposal', 'trash', 'bin', 'flush', 'dispose'],
+  mood: ['mood', 'sad', 'angry', 'feelings', 'crying', 'swings'],
+  anxiety: ['scared', 'fear', 'anxiety', 'worried'],
+  exercise: ['exercise', 'sport', 'run', 'gym', 'stretch'],
+  shameful: ['shame', 'dirty', 'bad', 'secret'],
+  why: ['why', 'reason', 'happen', 'cause'],
+  first: ['first', 'start', 'begin', 'young'],
+  what_is: ['what is', 'menstruation', 'period', 'menses', 'menure']
 };
 
 function findMatchingArticle(question, lang) {
