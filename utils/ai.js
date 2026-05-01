@@ -11,8 +11,6 @@ async function generateAnswer(question) {
 
   try {
     // For fast, conversational text tasks, gemini-1.5-flash is ideal
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-
     // We pass a system instruction to set the bot's persona
     const systemInstruction = `You are a helpful, empathetic, and knowledgeable assistant for women's health. 
 Your primary directive is to ONLY answer questions related to women's health, hygiene, emotional well-being, and related topics.
@@ -21,9 +19,14 @@ You should provide clear, factual, and comforting answers.
 Always include a disclaimer that you are an AI and they should consult a doctor for serious medical concerns.
 Keep your answers concise, ideally under 3 paragraphs, since they will be read on Telegram.`;
 
-    const chat = model.startChat({
-      systemInstruction: systemInstruction,
+    const model = genAI.getGenerativeModel({ 
+      model: 'gemini-2.5-flash',
+      systemInstruction: {
+        parts: [{ text: systemInstruction }]
+      }
     });
+
+    const chat = model.startChat();
 
     const result = await chat.sendMessage(question);
     return result.response.text();
