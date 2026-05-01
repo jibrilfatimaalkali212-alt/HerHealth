@@ -138,5 +138,75 @@
       "ha": ["Yin amfani da sabulu mai kamshi", "Amfani da ruwa mai tsafta kawai", "Amfani da maganin kashe kwayoyin cuta", "Yin amfani da turare"]
     },
     "answerIndex": 1
+  },
+  {
+    "id": 11,
+    "question": {
+      "en": "Which of these is a common physical sign that your period is coming?",
+      "pidgin": "Which of these sign show say your period dey come?",
+      "ha": "Wace alama ce ke nuna cewa hailar ki ta kusa zuwa?"
+    },
+    "options": {
+      "en": ["Tender breasts or bloating", "Sudden height increase", "Ear pain", "Sneezing"],
+      "pidgin": ["Breast dey pain you or belle dey big", "You go just tall one time", "Ear dey pain you", "Dey sneeze"],
+      "ha": ["Ciwon nono ko kumburin ciki", "Karin tsawo farat daya", "Ciwon kunne", "Atishawa"]
+    },
+    "answerIndex": 0
+  },
+  {
+    "id": 12,
+    "question": {
+      "en": "What is a panty liner used for?",
+      "pidgin": "Wetin dem dey use panty liner do?",
+      "ha": "Me ake amfani da panty liner wajen yi?"
+    },
+    "options": {
+      "en": ["For very heavy bleeding", "For light spotting or daily discharge", "To use as a bandage", "To replace a pad completely"],
+      "pidgin": ["For heavy blood", "For small small blood or water", "To wrap wound", "To use instead of pad"],
+      "ha": ["Don jini mai yawa", "Don kadan daga cikin jini ko ruwa", "Don daure ciwo", "Don maye gurbin pad gaba daya"]
+    },
+    "answerIndex": 1
+  },
+  {
+    "id": 13,
+    "question": {
+      "en": "If your last period started on May 1st and your cycle is 28 days, when is the next one likely to start?",
+      "pidgin": "If your last period start May 1 and your cycle na 28 days, when the next one go start?",
+      "ha": "Idan hailar ki ta baya ta fara ranar 1 ga Mayu kuma kwanakin ki 28 ne, yaushe ce ta gaba?"
+    },
+    "options": {
+      "en": ["May 10th", "May 28th", "May 29th", "June 1st"],
+      "pidgin": ["May 10", "May 28", "May 29", "June 1"],
+      "ha": ["10 ga Mayu", "28 ga Mayu", "29 ga Mayu", "1 ga Yuni"]
+    },
+    "answerIndex": 2
+  },
+  {
+    "id": 14,
+    "question": {
+      "en": "When should you talk to a doctor about your period?",
+      "pidgin": "When you suppose see doctor for your period mata?",
+      "ha": "Yaushe ne ya kamata ki ga likita game da hailarki?"
+    },
+    "options": {
+      "en": ["Every time it starts", "If you are bleeding so much you change pads every hour", "If it lasts for 4 days", "If you feel a little tired"],
+      "pidgin": ["Every time e start", "If blood too much say you dey change pad every one hour", "If e last for 4 days", "If you just tired small"],
+      "ha": ["Duk lokacin da ta fara", "Idan jinin ya yi yawa har sai kin canza pad kowane awa daya", "Idan ta dauki kwanaki 4", "Idan kika ji gajiya kadan"]
+    },
+    "answerIndex": 1
+  },
+  {
+    "id": 15,
+    "question": {
+      "en": "Is it true that a girl on her period should not touch food or go into the kitchen?",
+      "pidgin": "E true say girl wey dey her period no suppose touch food or enter kitchen?",
+      "ha": "Gaskiya ne cewa yarinyar da ke haila bai kamata ta taba abinci ko shiga kifi ba?"
+    },
+    "options": {
+      "en": ["Yes, the food will spoil", "No, it's a myth; periods do not affect food safety", "Yes, it is bad luck", "Only if she is not wearing a pad"],
+      "pidgin": ["Yes, the food go spoil", "No, na lie; period no get anything to do with food", "Yes, na bad luck", "Only if she no wear pad"],
+      "ha": ["Eh, abincin zai lalace", "A'a, karya ne; haila ba ta da alaka da tsaftar abinci", "Eh, bakin jini ne", "Sai idan ba ta sa pad ba"]
+    },
+    "answerIndex": 1
   }
 ]
