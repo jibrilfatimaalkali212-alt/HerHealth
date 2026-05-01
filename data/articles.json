@@ -77,7 +77,9 @@
     "fainting": "😵 Fainting\n\nIf you feel very dizzy or like you might pass out, sit down and put your head between your knees. Tell an adult immediately. You might need more iron or water.",
     "dance_sports": "💃 Dance and Sports\n\nYou can absolutely still dance and play sports! Many professional athletes compete during their periods. Just use a fresh pad before you start.",
     "puberty_friends": "👭 Puberty Timing\n\nEveryone is different! Some start at 9, some at 15. Your body has its own clock, and being 'early' or 'late' compared to friends is normal.",
-    "stay_fresh": "🧼 Staying Fresh\n\nWash your vulva (outside) with water once or twice a day. You don't need special wipes or sprays—water is the best and safest way."
+    "stay_fresh": "🧼 Staying Fresh\n\nWash your vulva (outside) with water once or twice a day. You don't need special wipes or sprays—water is the best and safest way.",
+    "symptoms": "📋 Common Symptoms (Signs your period is coming)\n\nBefore or during your period, you might notice:\n- **Cramps**: Pain in your lower belly or back.\n- **Bloating**: Feeling like your belly is full or tight.\n- **Tender Breasts**: Your chest might feel sore or heavy.\n- **Mood Swings**: Feeling extra emotional, sad, or grumpy.\n- **Breakouts**: Getting a few pimples on your face.\n- **Fatigue**: Feeling more tired than usual.\nThese are all normal signs of hormonal changes!",
+    "irregular_causes": "🔄 Causes of Irregular Periods\n\nIf you're a teen, irregularity is usually just your body adjusting to puberty. Other causes for adults or teens include:\n- **Stress**: Worrying about school or life can skip your cycle.\n- **Weight Changes**: Gaining or losing weight quickly.\n- **Illness**: Even a bad flu can delay your period.\n- **Extreme Exercise**: Working out too hard can sometimes stop a period.\nIf it happens often, talk to a health worker to check your hormone levels."
   },
   "pidgin": {
     "what_is": "🩸 Wetin be Menstruation?\n\nMenstruation (or period) na normal blood wey dey commot from woman body every month. Every month, your body dey prepare for pikin. If pikin no dey, the body go flush the preparation commot. Na normal and healthy thing!",
@@ -157,18 +159,20 @@
     "fainting": "😵 To Faint\n\nIf you feel say you wan faint, sit down quick. Tell adult make dem give you water and food.",
     "dance_sports": "💃 Dance and Sport\n\nYes, you fit still dance! Many big big athletes dey play even when dem dey their period.",
     "puberty_friends": "👭 My Friends never start\n\nEverybody body get their own time. Some dey start early, some late. All of dem dey normal.",
-    "stay_fresh": "🧼 To stay Clean\n\nWash your private part with water once or twice a day. You no need special soap, only water fine."
+    "stay_fresh": "🧼 To stay Clean\n\nWash your private part with water once or twice a day. You no need special soap, only water fine.",
+    "symptoms": "📋 Common Symptoms (Signs say period dey come)\n\nBefore or during period, you fit notice:\n- **Cramps**: Belle or back pain.\n- **Bloating**: Belle go heavy or tight.\n- **Tender Breasts**: Breast fit dey pain small.\n- **Mood Swings**: You fit dey vex or cry for no reason.\n- **Pimples**: Small pimples fit commot for face.\n- **Fatigue**: You go dey feel sleep/tired well well.\nAll these ones na normal signs!",
+    "irregular_causes": "🔄 Why period no dey come well\n\nIf you be teen, na normal thing. For adults or teens, e fit be because of:\n- **Stress**: Too much wahala fit delay period.\n- **Weight**: If you add or lose weight fast fast.\n- **Illness**: If you sick well well.\n- **Too much exercise**: If you dey do too much sport.\nIf e continue, go see doctor."
   },
   "ha": {
     "what_is": "🩸 Menene Haila?\n\nHaila al'ada ce ta jini da ke zuwa wa mace kowane wata. Jikinki yana shirya wa daukar ciki kowane wata, idan ba ciki, sai mahaifa ta zubar da jinin.",
-    "why": "🌱 Why It Happens\n\nA lokacin balaga, kwakwalwa tana tura sakon hormones don fitar da kwai. Idan ba a samu ciki ba, sai a yi haila.",
-    "first": "📅 First Period Guide\n\nAna fara haila tsakanin shekara 10 zuwa 15. Jinin na iya zama ja, ruwan kasa, ko baki. Hakan daidai ne! Sanar da babba idan kika gani.",
-    "cycle": "🔄 Menstrual Cycle Basics\n\nAna kirgawa daga ranar farko ta haila zuwa wata hailar. Yawanci kwanaki 28 ne.",
+    "why": "🌱 Me yasa yake faruwa\n\nA lokacin balaga, kwakwalwa tana tura sakon hormones don fitar da kwai. Idan ba a samu ciki ba, sai a yi haila.",
+    "first": "📅 Jagorar Hailar Farko\n\nAna fara haila tsakanin shekara 10 zuwa 15. Jinin na iya zama ja, ruwan kasa, ko baki. Hakan daidai ne! Sanar da babba idan kika gani.",
+    "cycle": "🔄 Sadarwar Haila\n\nAna kirgawa daga ranar farko ta haila zuwa wata hailar. Yawanci kwanaki 28 ne.",
     "body": "🧍‍♀️ Canje-canjen Jiki\n\nZa ki ga:\n- Girman nono\n- Gashi a wasu sassan jiki\n- Canjin siffar jiki\n- Kuraje\n- Canjin yanayi",
     "pads": "🧴 Yadda ake amfani da pad\n\n1. Wanke hannu.\n2. Bude pad.\n3. Cire takardar baya.\n4. Manna a jikin pant din ki.\n5. Wanke hannu.",
     "change": "⏰ Canza pad lafiya\n\nCanza pad bayan awa 4 zuwa 6 don kauce wa kwayoyin cuta da wari.",
     "bathing": "🛁 Wanka da Tsafta\n\nKi rika wanka! Ruwan dumi na taimakawa wajen rage radadi. Wanke wajen gaba da ruwa kawai.",
-    "school": "🏫 School Tips\n\n- Rike pad a jaka.\n- Sha ruwa sosai.\n- Kada ki ji kunyar zuwa ban daki.",
+    "school": "🏫 Makarantar da Haila\n\n- Rike pad a jaka.\n- Sha ruwa sosai.\n- Kada ki ji kunyar zuwa ban daki.",
     "disposal": "🗑️ Zubar da pad\n\nKada ki jefa pad a bayan gari. Nade shi da takarda ki jefa a kwandon shara.",
     "mood": "🌪️ Canjin Yanayi\n\nCanjin hormones na iya sa ki farin ciki ko bacin rai ba gaira ba dalili. Hakan daidai ne.",
     "anxiety": "😨 Tsoro da fargaba\n\nKada ki ji tsoro, dukkan mata na fuskantar wannan.",
@@ -237,6 +241,8 @@
     "fainting": "😵 Jiri ko Suma\n\nIdan kika ji jiri sosai, ki zauna ki sunkuyar da kanki. Sanar da babba domin yana iya zama alamar rashin ruwa.",
     "dance_sports": "💃 Rawa da Wasanni\n\nZaki iya yin rawa da wasanni! Yan wasa da yawa suna yin gasa koda suna haila.",
     "puberty_friends": "👭 Kawayena ba su fara ba\n\nKowa da irin lokacin jikinsa. Wasu suna fara wuri, wasu kuma makara. Dukansu daidai ne.",
-    "stay_fresh": "🧼 Tsaftar Jiki\n\nWanke gabanki da ruwa sau daya ko biyu a rana. Ba kya bukatar sabulu na musamman, ruwa kawai ya isa."
+    "stay_fresh": "🧼 Tsaftar Jiki\n\nWanke gabanki da ruwa sau daya ko biyu a rana. Ba kya bukatar sabulu na musamman, ruwa kawai ya isa.",
+    "symptoms": "📋 Alamomin Haila (Symptoms)\n\nKafin haila ko lokacin haila, zaki iya lura da:\n- **Ciwon Ciki**: Radadi a cikin ciki ko baya.\n- **Kumburin Ciki**: Jin cikinki ya kumbura.\n- **Ciwon Nono**: Nono zai iya yin nauyi ko radadi.\n- **Canjin Yanayi**: Jin fushi ko bacin rai ba dalili.\n- **Kuraje**: Fitowar kuraje a fuska.\n- **Gajiya**: Jin baccin ya karu.\nWadannan alamomin hormones ne ke haddasa su!",
+    "irregular_causes": "🔄 Dalilan da ke sa haila ta rincike\n\nIdan ke yarinya ce, jikinki ne yake kokarin daidaitawa. Sauran dalilan sun hada da:\n- **Damuwa**: Yawan tunani na iya sa haila ta jinkirta.\n- **Nauyin Jiki**: Canjin nauyi farat daya.\n- **Rashin Lafiya**: Zazzabi mai tsanani.\n- **Motsa Jiki**: Yin wasanni da yawa fiye da kima.\nIdan hakan yana yawan faruwa, gara a ga likita."
   }
 }
