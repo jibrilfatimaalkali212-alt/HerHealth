@@ -68,5 +68,75 @@
       "ha": ["Kwanaki 7", "Kwanaki 14", "Kwanaki 28", "Kwanaki 60"]
     },
     "answerIndex": 2
+  },
+  {
+    "id": 6,
+    "question": {
+      "en": "What can help reduce period pain (cramps)?",
+      "pidgin": "Wetin fit help reduce period pain?",
+      "ha": "Me zai iya rage radadin haila?"
+    },
+    "options": {
+      "en": ["Drinking cold soda", "Warm water bottle on the belly", "Eating very spicy food", "Running a marathon"],
+      "pidgin": ["Dey drink cold minerals", "Warm water for belle", "Dey chop plenty pepper", "Dey run marathon"],
+      "ha": ["Shan sanyi", "Dora ruwan dumi a ciki", "Cin yaji sosai", "Gudu mai nisa"]
+    },
+    "answerIndex": 1
+  },
+  {
+    "id": 7,
+    "question": {
+      "en": "Why is it important to eat iron-rich foods like leafy greens during your period?",
+      "pidgin": "Why e good make you chop food wey get iron when you dey your period?",
+      "ha": "Me yasa yake da kyau ki ci abinci mai sinadarin iron lokacin haila?"
+    },
+    "options": {
+      "en": ["To make you taller", "To replace iron lost in menstrual blood", "To make your hair grow faster", "To stop the period immediately"],
+      "pidgin": ["Make you for tall", "To replace the iron wey you lose", "Make your hair long", "To stop the period quick quick"],
+      "ha": ["Don ki yi tsawo", "Don mayar da sinadarin iron da aka rasa", "Don gashin kanki ya yi tsawo", "Don tsayar da hailar nan take"]
+    },
+    "answerIndex": 1
+  },
+  {
+    "id": 8,
+    "question": {
+      "en": "Is it normal for a girl's period to be irregular when it first starts?",
+      "pidgin": "E normal make girl period no dey regular when e first start?",
+      "ha": "Shin al'ada ne haila ta rincike a farkon fara yi?"
+    },
+    "options": {
+      "en": ["Yes, it can take up to 2 years to become regular", "No, it must be exactly 28 days from day one", "No, it means you are pregnant", "Yes, but only for the first month"],
+      "pidgin": ["Yes, e fit take 2 years before e settle", "No, e must be 28 days sharp", "No, e mean say you carry pikin", "Yes, but only for first month"],
+      "ha": ["Eh, yana daukar shekaru 2 kafin ta daidaita", "A'a, dole ya zama kwanaki 28 cif", "A'a, kina da juna biyu ne", "Eh, amma watan farko kawai"]
+    },
+    "answerIndex": 0
+  },
+  {
+    "id": 9,
+    "question": {
+      "en": "Which type of underwear material is best for feminine health?",
+      "pidgin": "Which kind pant better pass for woman health?",
+      "ha": "Wane irin pant ne ya fi dacewa da lafiyar mace?"
+    },
+    "options": {
+      "en": ["Silk", "Nylon", "Cotton", "Polyester"],
+      "pidgin": ["Silk", "Nylon", "Cotton", "Polyester"],
+      "ha": ["Siliki", "Nailon", "Auduga (Cotton)", "Polyester"]
+    },
+    "answerIndex": 2
+  },
+  {
+    "id": 10,
+    "question": {
+      "en": "What is the best way to clean your private part (vulva)?",
+      "pidgin": "Wetin be the best way to wash your private part?",
+      "ha": "Wace hanya ce tafi dacewa wajen wanke gabanki?"
+    },
+    "options": {
+      "en": ["Using strong scented soap", "Using clean water only", "Using bleach or disinfectants", "Using perfumes"],
+      "pidgin": ["Dey use soap wey dey smell well", "Dey use only clean water", "Dey use jik or medicated soap", "Dey use perfume"],
+      "ha": ["Yin amfani da sabulu mai kamshi", "Amfani da ruwa mai tsafta kawai", "Amfani da maganin kashe kwayoyin cuta", "Yin amfani da turare"]
+    },
+    "answerIndex": 1
   }
 ]
