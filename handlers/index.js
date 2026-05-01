@@ -118,21 +118,20 @@ function setupHandlers(bot) {
   bot.on('text', async (ctx) => {
     const userId = ctx.from.id;
     const state = getUserState(userId);
+    const question = ctx.message.text;
+
+    // 1. Try Keyword Match GLOBALLY (Works anywhere, saves quota)
+    const staticMatch = findMatchingArticle(question, state.language);
+    
+    if (staticMatch) {
+      await ctx.reply(`💡 I found some info for you:\n\n${staticMatch}`, keyboards.getBackKeyboard(state.language));
+      // Reset state if they were in a sub-menu
+      updateUserState(userId, { state: 'home' });
+      return;
+    }
 
     if (state.state === 'ask_privately') {
-      const question = ctx.message.text;
-      
-      // 1. Try Keyword Match first (Save Quota)
-      const staticMatch = findMatchingArticle(question, state.language);
-      
-      if (staticMatch) {
-        await ctx.reply(getText(state.language, 'ask_received'));
-        await ctx.reply(`💡 Here is a quick guide:\n\n${staticMatch}`, keyboards.getBackKeyboard(state.language));
-        updateUserState(userId, { state: 'home' });
-        return;
-      }
-
-      // 2. If no match, use AI (Consumes Quota)
+      // 2. If no match and in private state, use AI (Consumes Quota)
       await ctx.reply(getText(state.language, 'ask_received'));
       const answer = await generateAnswer(question);
       
@@ -143,6 +142,7 @@ function setupHandlers(bot) {
       
       updateUserState(userId, { state: 'home' });
     } else {
+      // Just resend home if they type randomly outside of asking privately
       ctx.reply(getText(state.language, 'welcome'), keyboards.getHomeKeyboard(state.language));
     }
   });
