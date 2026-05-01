@@ -1,6 +1,7 @@
 require('dotenv').config();
 const { Telegraf } = require('telegraf');
 const cron = require('node-cron');
+const http = require('http');
 const { setupHandlers } = require('./handlers');
 const { getAllUsers, getUserState } = require('./utils/state');
 const { getArticle } = require('./utils/i18n');
@@ -26,6 +27,17 @@ cron.schedule('0 9 * * *', () => {
       console.log(`Failed to send daily tip to ${userId}:`, err.message);
     });
   });
+});
+
+// Simple Health Check Server for Render
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('HerHealth Bot is running!');
+});
+
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`Health check server listening on port ${PORT}`);
 });
 
 bot.launch()
