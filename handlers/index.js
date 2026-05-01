@@ -124,7 +124,10 @@ function setupHandlers(bot) {
       // Get AI response
       const answer = await generateAnswer(ctx.message.text);
       
-      await ctx.reply(answer, keyboards.getBackKeyboard(state.language));
+      await ctx.reply(answer, {
+        parse_mode: 'Markdown',
+        ...keyboards.getBackKeyboard(state.language)
+      });
       
       // Optionally reset state
       updateUserState(userId, { state: 'home' });
