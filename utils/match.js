@@ -1,13 +1,13 @@
 const articles = require('../data/articles.json');
 
 const keywordMap = {
-  // --- SPECIFIC TOPICS (Check these first) ---
+  // --- SPECIFIC TOPICS (Check these first to prevent 'What is' collisions) ---
+  food: ['food', 'eat', 'diet', 'nutrition', 'sugar', 'salt', 'okra', 'avoid'],
   dizzy: ['dizzy', 'faint', 'weak', 'tired', 'dizziness'],
-  late: ['late', 'delay', 'missed', 'not come', 'waiting'],
+  late: ['late', 'delay', 'missed', 'not come', 'waiting', 'irregular'],
   odor: ['smell', 'odor', 'stink', 'fishy', 'scent'],
   heavy: ['heavy', 'flow', 'soaked', 'bleeding a lot', 'too much'],
   cold_water: ['cold water', 'ice water', 'chilled'],
-  okra: ['okra', 'draw soup', 'slippery'],
   ovulation: ['ovulation', 'ovulate', 'egg', 'fertile'],
   discharge: ['discharge', 'white stuff', 'watery', 'leaking'],
   itching: ['itch', 'scratch', 'burning', 'irritation'],
@@ -62,7 +62,9 @@ const keywordMap = {
   puberty_friends: ['friends started', 'before me', 'after me'],
   stay_fresh: ['fresh', 'clean vulva', 'wash outside'],
   dos_donts: ['do and don\'t', 'rules', 'avoid', 'should I'],
-  food: ['food', 'eat', 'diet', 'nutrition', 'sugar', 'salt'],
+  
+  // New specific triggers for the user's reported failures
+  pimples: ['symptoms', 'signs', 'pimples', 'breast soreness', 'coming'], 
   
   // --- GENERAL TOPICS (Check these last) ---
   cycle: ['cycle', 'days', 'long', 'duration', 'understanding', 'calculate'],
