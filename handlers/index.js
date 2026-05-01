@@ -3,6 +3,7 @@ const { getText, getArticle } = require('../utils/i18n');
 const keyboards = require('../keyboards');
 const quizzes = require('../data/quizzes.json');
 const { generateAnswer } = require('../utils/ai');
+const { findMatchingArticle } = require('../utils/match');
 
 function setupHandlers(bot) {
   bot.start((ctx) => {
@@ -119,20 +120,29 @@ function setupHandlers(bot) {
     const state = getUserState(userId);
 
     if (state.state === 'ask_privately') {
-      await ctx.reply(getText(state.language, 'ask_received'));
+      const question = ctx.message.text;
       
-      // Get AI response
-      const answer = await generateAnswer(ctx.message.text);
+      // 1. Try Keyword Match first (Save Quota)
+      const staticMatch = findMatchingArticle(question, state.language);
+      
+      if (staticMatch) {
+        await ctx.reply(getText(state.language, 'ask_received'));
+        await ctx.reply(`💡 Here is a quick guide:\n\n${staticMatch}`, keyboards.getBackKeyboard(state.language));
+        updateUserState(userId, { state: 'home' });
+        return;
+      }
+
+      // 2. If no match, use AI (Consumes Quota)
+      await ctx.reply(getText(state.language, 'ask_received'));
+      const answer = await generateAnswer(question);
       
       await ctx.reply(answer, {
         parse_mode: 'Markdown',
         ...keyboards.getBackKeyboard(state.language)
       });
       
-      // Optionally reset state
       updateUserState(userId, { state: 'home' });
     } else {
-      // Just resend home if they type randomly outside of asking privately
       ctx.reply(getText(state.language, 'welcome'), keyboards.getHomeKeyboard(state.language));
     }
   });

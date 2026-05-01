@@ -1,4 +1,5 @@
 const { GoogleGenerativeAI } = require('@google/generative-ai');
+const { getFromCache, saveToCache } = require('./cache');
 
 // Ensure the API key is present
 const apiKey = process.env.GEMINI_API_KEY;
@@ -7,6 +8,13 @@ const genAI = apiKey ? new GoogleGenerativeAI(apiKey) : null;
 async function generateAnswer(question) {
   if (!genAI) {
     throw new Error('GEMINI_API_KEY is not configured in .env');
+  }
+
+  // Check cache first to save quota
+  const cachedResponse = getFromCache(question);
+  if (cachedResponse) {
+    console.log('[AI] Serving from cache:', question);
+    return cachedResponse;
   }
 
   try {
@@ -29,7 +37,12 @@ Keep your answers concise, ideally under 3 paragraphs, since they will be read o
     const chat = model.startChat();
 
     const result = await chat.sendMessage(question);
-    return result.response.text();
+    const answer = result.response.text();
+    
+    // Save to cache for future use
+    saveToCache(question, answer);
+    
+    return answer;
   } catch (error) {
     console.error('Error generating AI response:', error);
     return "I'm sorry, I'm having trouble connecting to my AI brain right now. Please try again later.";
