@@ -56,6 +56,17 @@ bot.launch()
     // but Render will likely restart it anyway if the health check fails.
   });
 
+// 4. SELF-PING LOGIC (To avoid sleeping on free hosts)
+const APP_URL = process.env.RENDER_EXTERNAL_URL || process.env.APP_URL;
+if (APP_URL) {
+  setInterval(() => {
+    fetch(APP_URL)
+      .then(() => console.log(`[System] Self-ping successful: ${APP_URL}`))
+      .catch((err) => console.error(`[System] Self-ping failed:`, err.message));
+  }, 13 * 60 * 1000); // 13 minutes
+  console.log(`[System] Self-ping initialized for: ${APP_URL}`);
+}
+
 // Enable graceful stop
 process.once('SIGINT', () => {
   bot.stop('SIGINT');
